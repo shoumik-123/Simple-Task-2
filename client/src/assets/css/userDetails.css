@@ -1,0 +1,70 @@
+.userDetails {
+    width: 100vw;
+    height: fit-content;
+    max-width: 100%;
+    padding: 100px;
+    box-sizing: border-box;
+    display: flex;
+    line-height: 25px;
+}
+
+.productDetails > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2vmax;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    align-items: flex-start;
+
+}
+
+
+.userImage{
+    width: 50%;
+}
+
+.detailsBlock-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.detailsBlock-1 > div > h1 {
+    font: 600 42px "Roboto";
+}
+
+.detailsBlock-1>div > p {
+    font: 200 15px cursive;
+    margin-bottom: 15px;
+}
+
+.detailsBlock-2,.detailsBlock-3 {
+    padding: 1vmax 0;
+    margin-bottom: 30px;
+}
+
+
+
+.detailsBlock-3 > p {
+    font: 300 16px sans-serif;
+    line-height: 30px;
+}
+.detailsBlock-4 > p {
+    font: 300 16px sans-serif;
+    line-height: 30px;
+}
+
+.backBtn{
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: 0;
+    border: none;
+    box-shadow: 0 0 3px 3px black;
+}
+
+
+
